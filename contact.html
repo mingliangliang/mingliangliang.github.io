@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	<title>sc.chinaz.com</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+	<meta name="author" content="" />
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/inner.css" />
+    <link rel="stylesheet" href="styles/color.css" />
+	<link rel="stylesheet" href="styles/layout.css" />
+    
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+    
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader">
+        	<div class="container">
+            <header id="top" class="twelve columns">
+            	<div id="logo" class="three columns alpha"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                <div id="headerright" class="nine columns omega">
+                	<form method="post" action="#" id="searchform" />
+                    <div class="search">
+                    	<input type="text" name="s" id="s" size="35" />
+                        <input type="submit" value="Search" />
+                    </div>
+                    </form>
+                </div>
+
+                <section id="navigation" class="twelve columns">
+                    <nav id="nav-wrap">
+                        <ul id="topnav" class="sf-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a>
+                            	<ul>
+                                	<li><a href="element.html">Elements</a></li>
+                                    <li><a href="single.html">Blog Details</a></li>
+                                    <li><a href="#">Dropdown</a>
+                                        <ul>
+                                            <li><a href="#">Only</a></li>
+                                            <li><a href="single.html">Example of</a></li>
+                                            <li><a href="#">The Dropdown</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li class="current"><a href="contact.html">Contact</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+            </div>
+        </div>
+        <!-- END HEADER -->
+        
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain" class="inner">
+        	<div class="container">
+        	<section id="maincontent" class="twelve columns">
+            
+            	<div class="five columns alpha">
+                	<h2 class="titleBold">Contact Form</h2>
+                    <div id="contactform">
+                          <form id="contact" action="#" />
+                            <fieldset>
+                            <span class="error" id="name_error">Please enter name !</span>
+                            <span class="error" id="email_error">Please enter email address !</span>
+                            <span class="error" id="email_error2">Please enter valid email address !</span>
+                            <span class="error" id="msg_error">Please enter message !</span>
+                            <input type="text" name="name" id="name" size="50" value="Name" class="text-input" onblur="if (this.value == ''){this.value = 'Name'; }" onfocus="if (this.value == 'Name') {this.value = ''; }" />
+                            <input type="text" name="email" id="email" size="50" value="Email" class="text-input" onblur="if (this.value == ''){this.value = 'Email'; }" onfocus="if (this.value == 'Email') {this.value = ''; }" />
+                            <input type="text" name="subject" id="subject" value="Subject" class="text-input" onblur="if (this.value == ''){this.value = 'Subject'; }" onfocus="if (this.value == 'Subject') {this.value = ''; }" />
+                            <textarea cols="60" rows="10" name="msg" id="msg" class="text-input">Message</textarea>
+                            <br />
+                            <input type="submit" name="submit" class="button mini" id="submit_btn" value="Submit" /><br class="clear" />
+                            </fieldset>
+                          </form>
+                    </div><!-- end contactform -->
+				</div>
+            	<div class="seven columns omega">
+                	<h2 class="titleBold">Our Location</h2>
+                    <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Jalan+Kemanggisan+Utama,+Jakarta,+Indonesia&amp;sll=37.0625,-95.677068&amp;sspn=46.092115,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Jalan+Kemanggisan+Utama,+Jakarta+Barat,+Jakarta,+Indonesia&amp;ll=-6.189793,106.7908&amp;spn=0.016639,0.034246&amp;z=14&amp;iwloc=A&amp;output=embed" style="width:100%; height:360px; border:solid 1px #ececec; margin:0 0 20px 0"></iframe>
+                </div>
+                
+                <div class="separator line"></div>
+                
+                <h2 class="titleBold">Contact Information</h2>
+                <div class="one_fourth firstcols">
+                    <h5 class="titleSemibold">1234 Ringroad Taxex,<br /> Indonesia,  A123</h5>
+                    <ul class="noList">
+                    	<li><span class="txtleft">Free phone:</span><span class="txtright">+800 123 456</span></li>
+                        <li><span class="txtleft">Telephone:</span><span class="txtright">+800 789 789</span></li>
+                        <li><span class="txtleft">Fax:</span><span class="txtright">+800 456 456</span></li>
+                        <li><span class="txtleft">Email:</span><span class="txtright"><a href="testmail@domain.com">testmail@domain.com</a></span></li>
+                    </ul>
+                </div>
+                <div class="one_fourth">
+                    <h5 class="titleSemibold">3242 Ringroad Taxex,<br /> Australia,  A123</h5>
+                    <ul class="noList">
+                    	<li><span class="txtleft">Free phone:</span><span class="txtright">+800 123 456</span></li>
+                        <li><span class="txtleft">Telephone:</span><span class="txtright">+800 789 789</span></li>
+                        <li><span class="txtleft">Fax:</span><span class="txtright">+800 456 456</span></li>
+                        <li><span class="txtleft">Email:</span><span class="txtright"><a href="testmail2@domain.com">testmail2@domain.com</a></span></li>
+                    </ul>
+                </div>
+                <div class="one_fourth">
+                    <h5 class="titleSemibold">7642 Ringroad Taxex,<br /> United States,  A123</h5>
+                    <ul class="noList">
+                    	<li><span class="txtleft">Free phone:</span><span class="txtright">+800 123 456</span></li>
+                        <li><span class="txtleft">Telephone:</span><span class="txtright">+800 789 789</span></li>
+                        <li><span class="txtleft">Fax:</span><span class="txtright">+800 456 456</span></li>
+                        <li><span class="txtleft">Email:</span><span class="txtright"><a href="testmail3@domain.com">testmail3@domain.com</a></span></li>
+                    </ul>
+                </div>
+                <div class="one_fourth lastcols">
+                    <h5 class="titleSemibold">5442 Ringroad Taxex,<br /> Singapore,  A123</h5>
+                    <ul class="noList">
+                    	<li><span class="txtleft">Free phone:</span><span class="txtright">+800 123 456</span></li>
+                        <li><span class="txtleft">Telephone:</span><span class="txtright">+800 789 789</span></li>
+                        <li><span class="txtleft">Fax:</span><span class="txtright">+800 456 456</span></li>
+                        <li><span class="txtleft">Email:</span><span class="txtright"><a href="testmail4@domain.com">testmail4@domain.com</a></span></li>
+                    </ul>
+                </div>
+                
+                <div class="clear"></div><!-- clear float --> 
+            </section>
+            </div>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+        <!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div class="container">
+                <div id="footersidebarcontainer" class="twelve columns"> 
+                    <footer id="footersidebar">
+                    <div id="footcol1" class="four columns alpha">
+                    <ul>
+                        <li class="widget-container">
+                            <h2 class="widget-title">More About Think</h2>
+                            <p><img src="images/content/think.png" alt="" class="alignleft margin_bottomoff" />Sed convallis sagittis felis sed lacinia. sdsdsdsds Donec cursus fringilla aliquet. Nulla ultrices elit ut.bibendum id sollicitudin tortor blandit. Ut consectetur libero ut tortor condimentum eu egestas est viverra. In eget turpis dui, sed auctor nisi. </p>
+                        </li>
+                    </ul>
+                    </div>
+                    <div id="footcol2" class="four columns">
+                        <ul>
+                          <li class="widget-container">
+                            <h2 class="widget-title">Join Our Newsletter</h2>
+                            <form action="#" method="post" id="newsletter" />
+                            <div><input type="text" /><input type="submit" value="Subscribe" /></div>
+                            </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footcol3" class="four columns omega">
+                        <ul>
+                            <li class="widget-container">
+                                <h2 class="widget-title">Recent Comment</h2>
+                                <ul>
+                                	<li><a href="#">templatesquare on <strong>Post with Sidebar</strong></a></li>
+                                    <li><a href="#">templatesquare on <strong>Post with Full Width</strong></a></li>
+                                    <li><a href="#">templatesquare on <strong>Post with Different Thumbnail</strong></a></li>
+                                    <li><a href="#">templatesquare on <strong>Post with Anothere page</strong></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                    </footer>
+                    
+                    <div id="line-sep-footer"></div>
+                    
+                    <div id="tweets"></div><!-- twitter container (don't remove) -->
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div class="container">
+        	<div id="footercontainer" class="twelve columns">
+            	<footer id="footer">&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></footer>
+                <div id="toTop">^ Back to Top</div>
+            </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+	</div><!-- end outercontainer -->
+</div><!-- end bodychild -->
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<!-- jQuery Superfish -->
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+
+<!-- Form Contact Script -->
+<script type="text/javascript" src="js/contact.js"></script>
+
+<!-- jQuery Twitter -->
+<script type="text/javascript" src="js/jquery.tweetable.js"></script>
+
+<!-- Custom Script -->
+<script type="text/javascript" src="js/custom.js"></script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
