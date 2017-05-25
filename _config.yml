@@ -10,9 +10,9 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 url:                https://mingliangliang.github.io
 
-# Jekyll
+# Jekyll  #kramdown
 permalink:          /:title/
-markdown:           kramdown
+markdown:           redcarpet 
 highlighter:        rouge
 kramdown:
   auto_ids:         true
