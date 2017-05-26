@@ -19,5 +19,5 @@ comments: false
 
 ### 3.预览
 
-<iframe width="1024" height="768" src="http://v.youku.com/v_show/id_XNzIxNzY0MzEy.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" frameborder="0"> </iframe>
+<iframe width="600" height="600" src="http://v.youku.com/v_show/id_XNzIxNzY0MzEy.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0" frameborder="0"> </iframe>
 
