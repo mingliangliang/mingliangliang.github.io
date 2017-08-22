@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "阿里云服务器安装配置MySQL5.7"
+title:  "阿里云服务器MySQL5.7远程访问"
 date:   2017-08-22
-excerpt: "实现在阿里云服务器Centos7.2上安装配置MySQL5.7GPL版本。"
+excerpt: "阿里云服务器使用公网IP。"
 tag:
 - mysql
 - blog
 comments: true
 ---
 
-### 一、目标需求
+### 一、安装步骤
+网上安装方法有很多，
 http://www.linuxidc.com/Linux/2016-09/135288.htm
 
 
